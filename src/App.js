@@ -3,7 +3,7 @@ import './App.css';
 import { ClockCircleFilled, CalendarTwoTone, GlobalOutlined, CloseOutlined } from '@ant-design/icons';
 import { Alert } from 'antd';
 import validator from "validator";
-import { Button, Modal} from 'antd';
+import {Modal} from 'antd';
 
 function App() {
   const [name, setName] = useState("");
